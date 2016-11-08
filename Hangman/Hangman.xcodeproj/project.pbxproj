@@ -15,7 +15,6 @@
 		EC9310511C891F2C00BE736C /* hangman6.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC93104A1C891F2C00BE736C /* hangman6.gif */; };
 		EC9310521C891F2C00BE736C /* hangman7.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC93104B1C891F2C00BE736C /* hangman7.gif */; };
 		ECC22F431C89177600749E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F421C89177600749E58 /* AppDelegate.swift */; };
-		ECC22F481C89177600749E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F461C89177600749E58 /* Main.storyboard */; };
 		ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F491C89177600749E58 /* Assets.xcassets */; };
 		ECC22F4D1C89177600749E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC22F4B1C89177600749E58 /* LaunchScreen.storyboard */; };
 		ECC22F581C89177600749E58 /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC22F571C89177600749E58 /* HangmanTests.swift */; };
@@ -53,7 +52,6 @@
 		EC93104B1C891F2C00BE736C /* hangman7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hangman7.gif; path = "basic-hangman-img/hangman7.gif"; sourceTree = "<group>"; };
 		ECC22F3F1C89177600749E58 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC22F421C89177600749E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECC22F471C89177600749E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECC22F491C89177600749E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC22F4C1C89177600749E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECC22F4E1C89177600749E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 		ECC22F731C8917DC00749E58 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ECC22F461C89177600749E58 /* Main.storyboard */,
 				EC9310531C891F3400BE736C /* basic-hangman-img */,
 			);
 			name = View;
@@ -301,7 +298,6 @@
 				EC9310511C891F2C00BE736C /* hangman6.gif in Resources */,
 				ECC22F4A1C89177600749E58 /* Assets.xcassets in Resources */,
 				EC9310521C891F2C00BE736C /* hangman7.gif in Resources */,
-				ECC22F481C89177600749E58 /* Main.storyboard in Resources */,
 				EC93104F1C891F2C00BE736C /* hangman4.gif in Resources */,
 				EC93104C1C891F2C00BE736C /* hangman1.gif in Resources */,
 				EC9310501C891F2C00BE736C /* hangman5.gif in Resources */,
@@ -368,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECC22F461C89177600749E58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECC22F471C89177600749E58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECC22F4B1C89177600749E58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
